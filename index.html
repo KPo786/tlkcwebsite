@@ -250,6 +250,149 @@
       <a href="mailto:krishinp@gmail.com" class="email-button" aria-label="Send email to TLKC Consulting">Contact Us</a>
     </section>
   </main>
+
+          <!-- Projects Section -->
+        <section id="projects" class="py-20 md:py-32">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-16 section-title">Project Showcase</h2>
+
+                <div class="space-y-24">
+                    <!-- Project 1: Carnival Cruise Line -->
+                    <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden grid md:grid-cols-5 gap-8 items-center p-8">
+                        <div class="md:col-span-2">
+                            <h3 class="text-2xl font-bold">Carnival.com Revamp</h3>
+                            <p class="text-sm text-gray-500 mb-4">Client: Carnival Cruise Line | Role: UI/UX Analyst</p>
+                            <p class="text-gray-600 mb-4">A transformation project to enhance the user experience on the Carnival.com website. My role involved reviewing design system components in Figma, performing design QA, and conducting user research, which led to improved design consistency and usability.</p>
+                            <span class="text-blue-600 font-semibold">Outcome:</span>
+                            <p class="text-gray-700 italic">Improved design consistency, usability, and collaboration between design and development teams.</p>
+                        </div>
+                        <div class="md:col-span-3 grid grid-cols-2 gap-4">
+                            <img src="images/Carnival1.png" alt="Carnival Project Screenshot 1" class="rounded-lg shadow-md gallery-img w-full h-auto object-cover">
+                            <img src="images/Carnival2.png" alt="Carnival Project Screenshot 2" class="rounded-lg shadow-md gallery-img w-full h-auto object-cover">
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Liberty Corporate -->
+                    <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden p-8">
+                        <div class="grid md:grid-cols-5 gap-8 items-start">
+                            <div class="md:col-span-3 grid grid-cols-2 gap-4">
+                                <img src="images/Liberty1.png" alt="Liberty Project Screenshot 1" class="rounded-lg shadow-md gallery-img w-full h-auto object-cover">
+                                <img src="images/Liberty2.png" alt="Liberty Project Screenshot 2" class="rounded-lg shadow-md gallery-img w-full h-auto object-cover">
+                            </div>
+                            <div class="md:col-span-2">
+                                <h3 class="text-2xl font-bold">Single Service Platform</h3>
+                                <p class="text-sm text-gray-500 mb-4">Client: Liberty Corporate | Role: Product Analyst</p>
+                                <p class="text-gray-600 mb-4">This project aimed to enhance customer experience for members, employers, and financial advisors through a unified web app. I conducted requirements analysis, UX design, delivered mockups, and aligned stakeholders to improve usability.</p>
+                                <span class="text-blue-600 font-semibold">Outcome:</span>
+                                <p class="text-gray-700 italic">Improved designs and userbility and achieved cost savings through negotiated service provider deals.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card mt-6">
+                            <h3 class="feature-title">Feature: View Retirement Summary Dashboard</h3>
+                            <div class="user-story">
+                                <strong>User Story:</strong><br>
+                                As a <em>member</em> with a group retirement policy,<br>
+                                I want to log in to my portal and view a summary of my retirement goals,<br>
+                                So that I can easily understand my retirement status and make informed decisions to improve my retirement planning.
+                            </div>
+                            <div class="scenario-item">
+                                <strong>Scenario: Members with permissions can view retirement summary</strong>
+                                Given the user has the required permissions, when the user logs in to the system, then the user should be able to view a comprehensive summary including:
+                                <ul class="list-columns">
+                                    <li>Retirement Date</li>
+                                    <li>Years to Retirement</li>
+                                    <li>Monthly Contribution Salary</li>
+                                    <li>Total Projected Benefits</li>
+                                    <li>Net Replacement Ratio Score</li>
+                                    <li>Estimated Monthly Income at Retirement</li>
+                                    <li>Tips to Improve Based on Score</li>
+                                    <li>Download Benefit Statement</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Capitec Bank - Interstellar -->
+                    <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden p-8">
+                        <div class="grid md:grid-cols-5 gap-8 items-start">
+                            <div class="md:col-span-2">
+                                <h3 class="text-2xl font-bold">Interstellar</h3>
+                                <p class="text-sm text-gray-500 mb-4">Client: Capitec Bank | Role: Product Owner</p>
+                                <p class="text-gray-600 mb-4">I led the re-engineering of a legacy file transmission system for high-volume payment transactions. My responsibilities included analyzing workflows, redesigning the UI, managing the backlog, and leading sprints for implementation.</p>
+                                <span class="text-blue-600 font-semibold">Outcome:</span>
+                                <p class="text-gray-700 italic">Streamlined payment operations, reduced licensing costs, and delivered a modernized, user-friendly system.</p>
+                            </div>
+                            <div class="md:col-span-3 grid grid-cols-2 gap-4">
+                                <img src="images/Interstellar1.png" alt="Interstellar Project Screenshot 1" class="rounded-lg shadow-md gallery-img w-full h-auto object-cover">
+                                <img src="images/Interstellar2.png" alt="Interstellar Project Screenshot 2" class="rounded-lg shadow-md gallery-img w-full h-auto object-cover">
+                            </div>
+                        </div>
+                        <div class="feature-card mt-6">
+                            <h3 class="feature-title">Feature: View Payments Dashboard</h3>
+                            <div class="user-story">
+                                <strong>User Story:</strong><br>
+                                As a staff member with the necessary permissions,<br>
+                                I want to view payment files sent and received for the day,<br>
+                                So that I can monitor and manage payment transactions efficiently.
+                            </div>
+                            <div class="scenario-list">
+                                <div class="scenario-item">
+                                    <strong>Scenario: View and filter payment files on dashboard</strong>
+                                    The dashboard displays payment files in a comprehensive table with columns for Date, Direction, Service, Sub-service, State, Start of day, User, ACKs, Nacks, Failed, and Total. Users can filter by Service name and Direction, sort by any column, and navigate through paginated results (10 rows per page).
+                                </div>
+                                <div class="scenario-item">
+                                    <strong>Key Capabilities:</strong>
+                                    • Advanced filtering and sorting across all data columns<br>
+                                    • Pagination for efficient data management<br>
+                                    • Real-time monitoring of payment transaction status<br>
+                                    • Improved UI delivering significant annual savings in licensing and maintenance costs
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Capitec Bank - Rapid Payments (PayShap) -->
+                    <div class="project-card bg-white rounded-lg shadow-lg overflow-hidden p-8">
+                        <div class="grid md:grid-cols-5 gap-8 items-start">
+                            <div class="md:col-span-3 grid grid-cols-2 gap-4">
+                                <img src="images/RapidPayments1.png" alt="Rapid Payments Screenshot 3" class="rounded-lg shadow-md gallery-img w-auto h-auto object-cover">
+                                <img src="images/RapidPayments2.png" alt="Rapid Payments Screenshot 2" class="rounded-lg shadow-md gallery-img w-auto h-auto object-cover">
+                                <img src="images/RapidPayments3.png" alt="Rapid Payments Screenshot 1" class="rounded-lg shadow-md gallery-img w-auto h-auto object-cover">
+                                <img src="images/RapidPayments4.png" alt="Rapid Payments Screenshot 4" class="rounded-lg shadow-md gallery-img w-auto h-auto object-cover">
+                            </div>
+                            <div class="md:col-span-2">
+                                <h3 class="text-2xl font-bold">Rapid Payments (PayShap)</h3>
+                                <p class="text-sm text-gray-500 mb-4">Client: Capitec Bank | Role: Product Analyst</p>
+                                <p class="text-gray-600 mb-4">This proof of concept project was for South Africa's new immediate payment channel under BankServAfrica. I represented Capitec at industry design sessions, documented requirements, and delivered mockups and integration documentation.</p>
+                                <span class="text-blue-600 font-semibold">Outcome:</span>
+                                <p class="text-gray-700 italic">Led POC showcasing instant payment capabilities, Delivered mockups, service integration docs and process flows.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card mt-6">
+                            <h3 class="feature-title">Feature: Make A Payment</h3>
+                            <div class="user-story">
+                                <strong>User Story:</strong><br>
+                                As a user,<br>
+                                I want to be able to make payments,<br>
+                                So that I can instantly transfer money to beneficiaries once I have successfully logged in, have set up my alias, my account is in good standing and I have sufficient funds available.
+                            </div>
+                            <div class="scenario-list">
+                                <div class="scenario-item">
+                                    <strong>Scenario: User makes a payment for the first time</strong>
+                                    When the user selects the option to add an alias, they can capture their alias, cellphone number, max payment amount, and default reference. The system validates field inputs and provides options to save or clear data with appropriate confirmation messaging.
+                                </div>
+                                <div class="scenario-item">
+                                    <strong>Scenario: User makes a payment to a beneficiary</strong>
+                                    Given the user's account is in good standing with sufficient funds, they can select a recipient with prepopulated cellphone number, enter payment amount, edit the default reference, and confirm payment. The system processes the instant payment transaction seamlessly.
+                                </div>
+                                <div class="scenario-item">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
   
   <footer>
     <p>© 2025 TLKC Consulting. All rights reserved.</p>
